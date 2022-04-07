@@ -17,4 +17,5 @@
 - **List Files**: ls
 - **List Hidden Files**: ls -a
 - **Create Files**: touch + fileName
+- **Create a Directory**: mkdir+ NewDirectoryName
 
