@@ -21,4 +21,13 @@
 - **Enter a Directory**: cd
 
 ## Move Files with scp
+- First exit the server, and go back to local client
 - Use the command:scp + fileName + cs15lsp22zz@ieng6.ucsd.edu:~/  Note: zz should be replaced by your user name
+- If the file is sent successfully, you can see the following picture:
+![38_X%U1_ILZ~4{EJQGA4X$X](https://user-images.githubusercontent.com/59184714/162260984-98f5f8b6-ec74-4675-937a-5a8db17707a0.png)
+
+## Setting an SSH Key
+$ ssh-keygen
+After running this command you will see the following codes:
+![38_X%U1_ILZ~4{EJQGA4X$X](https://user-images.githubusercontent.com/59184714/162260984-98f5f8b6-ec74-4675-937a-5a8db17707a0.png)
+(you can press enter to use default setting)
