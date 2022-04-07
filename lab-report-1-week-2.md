@@ -27,7 +27,12 @@
 ![38_X%U1_ILZ~4{EJQGA4X$X](https://user-images.githubusercontent.com/59184714/162260984-98f5f8b6-ec74-4675-937a-5a8db17707a0.png)
 
 ## Setting an SSH Key
-$ ssh-keygen
-After running this command you will see the following codes:
-![38_X%U1_ILZ~4{EJQGA4X$X](https://user-images.githubusercontent.com/59184714/162260984-98f5f8b6-ec74-4675-937a-5a8db17707a0.png)
-(you can press enter to use default setting)
+- $ ssh-keygen
+  After running this command you will see the following codes:
+  ![38_X%U1_ILZ~4{EJQGA4X$X](https://user-images.githubusercontent.com/59184714/162260984-98f5f8b6-ec74-4675-937a-    5a8db17707a0.png)
+  (you can press enter to use default setting)
+- If you have done successfully you will see the image of your key:
+  ![6HY0E~CT(8`458X01$M8`P0](https://user-images.githubusercontent.com/59184714/162262379-4d246e53-6d52-456e-ab6d-8625b1a39806.png)
+- (if you are using windows you have several steps more, please go to following link and finish the steps:)
+  [Link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
+
