@@ -37,3 +37,9 @@
   [Link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
 - Go to the server and enter the command *mkdir .ssh*, then exit the server back to client
 - Use scp command to send the key to the server (the code should look like this): *scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys*
+- If you finish all the steps, you can log in your server without entering password!
+
+## Optimizing Remote Running
+- You can write a command in quotes at the end of an ssh command to directly run it on the remote server
+- You can run multiple commands on the same line by using *;* to seperate them
+- You can use up-arrow to back to your last command 
