@@ -29,10 +29,11 @@
 ## Setting an SSH Key
 - $ ssh-keygen
   After running this command you will see the following codes:
-  ![38_X%U1_ILZ~4{EJQGA4X$X](https://user-images.githubusercontent.com/59184714/162260984-98f5f8b6-ec74-4675-937a-    5a8db17707a0.png)
+  ![JMQ@RDA2H($D)_ZMS)`D5~0](https://user-images.githubusercontent.com/59184714/162262922-c50f878d-94a9-4734-8f6e-24e44ab412af.png)
   (you can press enter to use default setting)
 - If you have done successfully you will see the image of your key:
   ![6HY0E~CT(8`458X01$M8`P0](https://user-images.githubusercontent.com/59184714/162262379-4d246e53-6d52-456e-ab6d-8625b1a39806.png)
 - (if you are using windows you have several steps more, please go to following link and finish the steps:)
   [Link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
-
+- Go to the server and enter the command *mkdir .ssh*, then exit the server back to client
+- Use scp command to send the key to the server (the code should look like this): *scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys*
