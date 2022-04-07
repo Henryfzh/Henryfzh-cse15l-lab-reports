@@ -41,5 +41,8 @@
 
 ## Optimizing Remote Running
 - You can write a command in quotes at the end of an ssh command to directly run it on the remote server
+  ![image](https://user-images.githubusercontent.com/59184714/162264787-682a6a9e-6227-4ef7-bbde-6e5c8132ec54.png)
+
 - You can run multiple commands on the same line by using *;* to seperate them
+  ![image](https://user-images.githubusercontent.com/59184714/162264692-44b97dce-25ef-4e00-8548-df894b1ef97d.png)
 - You can use up-arrow to back to your last command 
