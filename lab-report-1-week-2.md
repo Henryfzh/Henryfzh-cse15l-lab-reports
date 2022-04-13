@@ -7,24 +7,34 @@
  
 ## Remote Connecting
 - To start using remote connecting, we need to use SSH.
-- The command should look like: *ssh cs15lsp22 + your id + @ieng.ucsd.edu*
+- The command should look like: (*ssh cs15lsp22 + your id + @ieng.ucsd.edu*)
 - Then you need to enter your password and press enter
 - If you see the following code, it means you enter the server!
 ![QQ图片20220407094749](https://user-images.githubusercontent.com/59184714/162255438-4284a780-28ce-4a5f-9340-bfa20657052f.png)
 
 ## Trying Some Commands
-- **Move Files**: mv
-- **List Files**: ls
-- **List Hidden Files**: ls -a
-- **Create Files**: touch + fileName
-- **Create a Directory**: mkdir+ NewDirectoryName
-- **Enter a Directory**: cd
-![image](https://user-images.githubusercontent.com/59184714/162265133-414a0e45-0e9a-4572-96cd-b03620b3f585.png)
+- **Move Files**: (mv)
+* ![image](https://user-images.githubusercontent.com/59184714/163079210-05859120-1012-4f40-81a8-4a8452a7c2ad.png)
+
+- **List Files**: (ls)
+* ![image](https://user-images.githubusercontent.com/59184714/163078748-c2723032-7ac8-4005-b5c8-1845c31c08cf.png)
+- **List Hidden Files**: (ls -a)
+- ![image](https://user-images.githubusercontent.com/59184714/163078786-19849c3d-cb65-446f-aeca-aaebb2b4794a.png)
+
+- **Create Files**: (touch + fileName)
+- ![image](https://user-images.githubusercontent.com/59184714/163078963-ba8fb9d6-08ab-48af-b071-e3471424a734.png)
+
+- **Create a Directory**: (mkdir+ NewDirectoryName)
+- ![image](https://user-images.githubusercontent.com/59184714/163079091-3d34cacc-1617-4789-a666-ce76e5d09cb0.png)
+
+- **Enter a Directory**: (cd)
+- ![image](https://user-images.githubusercontent.com/59184714/163079141-577ba29e-0379-4d57-97be-203ca1e3042e.png)
+
 
 
 ## Move Files with scp
 - First exit the server, and go back to local client
-- Use the command:scp + fileName + cs15lsp22zz@ieng6.ucsd.edu:~/  Note: zz should be replaced by your user name
+- Use the command:(scp + fileName + cs15lsp22zz@ieng6.ucsd.edu:~/)  Note: zz should be replaced by your user name
 - If the file is sent successfully, you can see the following picture:
 ![38_X%U1_ILZ~4{EJQGA4X$X](https://user-images.githubusercontent.com/59184714/162260984-98f5f8b6-ec74-4675-937a-5a8db17707a0.png)
 
@@ -35,10 +45,10 @@
   (you can press enter to use default setting)
 - If you have done successfully you will see the image of your key:
   ![6HY0E~CT(8`458X01$M8`P0](https://user-images.githubusercontent.com/59184714/162262379-4d246e53-6d52-456e-ab6d-8625b1a39806.png)
-- (if you are using windows you have several steps more, please go to following link and finish the steps:)
+- if you are using windows you have several steps more, please go to following link and finish the steps:
   [Link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
 - Go to the server and enter the command *mkdir .ssh*, then exit the server back to client
-- Use scp command to send the key to the server (the code should look like this): *scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys*
+- Use scp command to send the key to the server (the code should look like this): (*scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys*)
 - If you finish all the steps, you can log in your server without entering password!
 
 ## Optimizing Remote Running
