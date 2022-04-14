@@ -47,7 +47,7 @@
   ![6HY0E~CT(8`458X01$M8`P0](https://user-images.githubusercontent.com/59184714/162262379-4d246e53-6d52-456e-ab6d-8625b1a39806.png)
 - if you are using windows you have several steps more, please go to following link and finish the steps:
   [Link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
-- Go to the server and enter the command *mkdir .ssh*, then exit the server back to client
+- Go to the server and enter the command (*mkdir .ssh*), then exit the server back to client
 - Use scp command to send the key to the server (the code should look like this): (*scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys*)
 - If you finish all the steps, you can log in your server without entering password!
 
