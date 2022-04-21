@@ -29,6 +29,8 @@ https://github.com/Henryfzh/CSE-15L-Markdown-parser/commit/c9e1964cf3651656aa5fc
 
 - Symptom of the bug
 Nothing will be included in the output, because the code cannot find the link inside the backets. Only a comma in the output, but it is false
+![image](https://user-images.githubusercontent.com/59184714/164509063-3f3214b4-1c9a-4d39-91d1-5243de8c66fe.png)
+
 
 - Relation between bugs, the symptom, and the failure-inducing input:
 The original code cannot find the empty link and it just keep output an empty string, that's why the output is empty. My failure-inducing input dose not include any links in the document, so the output is like " , ", but it makes no sense.
