@@ -16,10 +16,9 @@ Because there is a missing ")" at the document, the code cannot find the link an
 
 ## Change 2
 - Screen shot of changes
-- ![image](https://user-images.githubusercontent.com/59184714/164566551-433e03bd-8447-4f4c-bb67-eb32803528f1.png)
+![image](https://user-images.githubusercontent.com/59184714/164566551-433e03bd-8447-4f4c-bb67-eb32803528f1.png)
 
-- Link to the failure document
-- https://github.com/Henryfzh/CSE-15L-Markdown-parser/commit/21d95402730b00f7734697639fb163bd345ad035#diff-c30dbff4e529133282d848da192ac83e5d6f1c7593c0e31db0e4104f43178d3e
+- Link to the failure document: https://github.com/Henryfzh/CSE-15L-Markdown-parser/commit/21d95402730b00f7734697639fb163bd345ad035#diff-c30dbff4e529133282d848da192ac83e5d6f1c7593c0e31db0e4104f43178d3e
 - Symptom of the bug
 When there is an empty line at the end of the markdown document, the program will keep running without ending. 
 ![image](https://user-images.githubusercontent.com/59184714/164566955-b38c2063-1cef-4f6c-8200-12e3dec8d520.png)
@@ -32,9 +31,9 @@ My failure-inducing input is to add an empty line at the end of the document, an
 ![image](https://user-images.githubusercontent.com/59184714/164507658-f7ac39d3-43f3-4fa2-a2cd-029dab922804.png)
 
 - Link to the failure document
-- https://github.com/Henryfzh/CSE-15L-Markdown-parser/commit/c9e1964cf3651656aa5fcf9dbf693932aece33be
+https://github.com/Henryfzh/CSE-15L-Markdown-parser/commit/c9e1964cf3651656aa5fcf9dbf693932aece33be
 
-- Symptom of the bug
+- Symptom of the bug:\n
 Nothing will be included in the output, because the code cannot find the link inside the backets. Only a comma in the output, but it is false
 ![image](https://user-images.githubusercontent.com/59184714/164509063-3f3214b4-1c9a-4d39-91d1-5243de8c66fe.png)
 
