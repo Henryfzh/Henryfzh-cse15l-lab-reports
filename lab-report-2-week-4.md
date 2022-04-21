@@ -33,7 +33,7 @@ My failure-inducing input is to add an empty line at the end of the document, an
 - Link to the failure document
 https://github.com/Henryfzh/CSE-15L-Markdown-parser/commit/c9e1964cf3651656aa5fcf9dbf693932aece33be
 
-- Symptom of the bug:\n
+- Symptom of the bug:
 Nothing will be included in the output, because the code cannot find the link inside the backets. Only a comma in the output, but it is false
 ![image](https://user-images.githubusercontent.com/59184714/164509063-3f3214b4-1c9a-4d39-91d1-5243de8c66fe.png)
 
