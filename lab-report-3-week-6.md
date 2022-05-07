@@ -44,6 +44,5 @@
 
 - All commands in 1 line:
 
-![image](https://user-images.githubusercontent.com/59184714/167265404-0fc6cf63-f559-4b5f-a686-42c81d361abd.png)
-
+![image](https://user-images.githubusercontent.com/59184714/167266413-ad7f50c1-5e78-4fd0-aaa2-b25dccda42ba.png)
 
