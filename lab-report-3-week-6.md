@@ -32,10 +32,18 @@
 -[Link to the commit file](https://github.com/Henryfzh/CSE-15L-Markdown-parser/commit/ae4a645f2bfab942c334f92baea698ce759766fa)
 
 ## Copy whole directories with scp -r
-- Whole markdown parse with scp -r
+- Whole markdown parse with scp -r:
+
 
 ![image](https://user-images.githubusercontent.com/59184714/167263593-74953063-4f8e-48ea-8e48-ba772e3653e7.png)
 
-- Running and compiling test
+- Running and compiling test:
+
+
+![image](https://user-images.githubusercontent.com/59184714/167265225-fb2375e8-76df-4dfe-beaf-cb23ba30970d.png)
+
+- All commands in 1 line:
+
+![image](https://user-images.githubusercontent.com/59184714/167265404-0fc6cf63-f559-4b5f-a686-42c81d361abd.png)
 
 
