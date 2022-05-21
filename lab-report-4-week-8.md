@@ -14,6 +14,8 @@
 
   ![image](https://user-images.githubusercontent.com/59184714/169347367-d85b7923-4482-4227-946c-7809c02ad4dc.png)
   
+- I think I do not need to make anychanges to my code, because the output of my code is the same with the expected output.
+  
 ## Snippet 2:
 
 - Expected Output:
@@ -28,12 +30,14 @@
 
   ![image](https://user-images.githubusercontent.com/59184714/169347557-2bc50d32-ef0c-4a52-8047-41e7b53aa7e3.png)
 
+- I think I cannot use a small code to correct the error. I think I need to use a stack to solve this issue, when the code find a "[", put it in the stack whenever it finds the "]" pop them out the stack, and read the information between this two stack. 
+
 
 ## Snippet 3:
 
 - Expected Output:
 
-  ![image](https://user-images.githubusercontent.com/59184714/169354260-4c1b9f96-6d7a-4fe6-ac35-ec41845eef4b.png)
+  ![image](https://user-images.githubusercontent.com/59184714/169657294-e50d6d19-d14a-4b67-85e8-0dc81b313e14.png)
 
 - My code:
 
@@ -42,6 +46,8 @@
 - Peer's code:
 
   ![image](https://user-images.githubusercontent.com/59184714/169347461-5f40e9ae-2aa7-437e-bed2-0890d0af4201.png)
+  
+ - It is also difficult to fix the problem in small code, because I need to fix all the empty space, and I also need to fix the issue that without ")". I think to eliminate the empty space I can make the code to find the non-empty strings. In order to solve without ")", I can make the code to ignore all the content without the ")".
 
 [Link to My Repository ](https://github.com/Henryfzh/CSE-15L-Markdown-parser)
 
