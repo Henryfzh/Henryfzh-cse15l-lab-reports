@@ -6,19 +6,21 @@
 
 ## Snippet 1:
 
+- Expeted Output:
+
+  ![image](https://user-images.githubusercontent.com/59184714/170530388-c26414cb-3071-40de-9a8e-881ed27e445b.png)
+  
 - MarkdownParseTest:
 
   ![image](https://user-images.githubusercontent.com/59184714/169658195-57bbb7cd-b190-4744-ba6b-15c9785eb30f.png)
   
   (The snippet1.md document includes the text in Snippet1)
 
-- Expeted Output:
-
-  ![image](https://user-images.githubusercontent.com/59184714/169351285-2967c435-f690-4512-9167-505588f75b45.png)
-
 - My code (Passed):
 
   ![image](https://user-images.githubusercontent.com/59184714/169345030-a335c388-7e94-4899-b73e-3845b78efed3.png)
+  ![image](https://user-images.githubusercontent.com/59184714/170529388-c5faf1df-a2aa-4a39-b920-c71c11a633a1.png)
+
 
 - Peer's code (Not Passed):
 
@@ -27,17 +29,17 @@
   ![image](https://user-images.githubusercontent.com/59184714/169658365-d05c348c-184b-4789-85c9-03500e9ce1c4.png)
 
   
-- I think I do not need to make anychanges to my code, because the output of my code is the same with the expected output.
+- I think I do not need to make anychanges to my code, because the output of my code is the same with the expected output. For my peer's code it can be fixed within a small code. Because his output only missed the "ucsd.edu", which means the code did not stop when it found the first "]". Therefore, I think to add an break statement after finding the "]" will solve the problem.
   
 ## Snippet 2:
+
+- Expected Output:
+
+  ![image](https://user-images.githubusercontent.com/59184714/170530133-b96a65cd-c7a7-45b1-aa39-feab9e72e29c.png)
 
 - MarkdownParseTest:
 
   ![image](https://user-images.githubusercontent.com/59184714/169658638-ee25b5e9-0ccc-40b8-994b-a028213eb674.png)
-
-- Expected Output:
-
-  ![image](https://user-images.githubusercontent.com/59184714/169354054-74121638-cd10-4d1a-b517-fdb71737e548.png)
 
 - My code (Not Passed):
 
