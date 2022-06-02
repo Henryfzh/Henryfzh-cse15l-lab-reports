@@ -17,7 +17,7 @@
     
  - Expected result:
   
-    ![image](https://user-images.githubusercontent.com/59184714/171758009-e5af5d44-5b70-4200-94bf-8abff0838ae7.png)
+    ![image](https://user-images.githubusercontent.com/59184714/171758669-85883a53-e9ef-4220-ae64-70295021ee0f.png)
 
  - Conclusion: according to the expected result, the first test [link](foo(and(bar)) should not be a valid link. My code did not work well on this test, and the markdown-parse code worked well on it. However, on the second test, the expected result should be a valid link. My code worked well on it but not the markdown-parse code.
   
