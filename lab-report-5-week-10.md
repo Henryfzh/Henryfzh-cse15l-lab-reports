@@ -19,5 +19,7 @@
   
     ![image](https://user-images.githubusercontent.com/59184714/171758669-85883a53-e9ef-4220-ae64-70295021ee0f.png)
 
- - Conclusion: according to the expected result, the first test [link](foo(and(bar)) should not be a valid link. My code did not work well on this test, and the markdown-parse code worked well on it. However, on the second test, the expected result should be a valid link. My code worked well on it but not the markdown-parse code.
-  
+ - Conclusion: according to the expected result, the first test "[link](foo(and(bar))" should not be a valid link. My code did not work well on this test, and the markdown-parse code worked well on it. However, on the second test "[link] (</my uri>)", the expected result should be a valid link. My code worked well on it but not the markdown-parse code. The reason of my code did not work on the first test because my code can only find the "(" and ")", but not to find out if they are in pairs or they are valid. Below is the piece of the code should be fixed. It should not only simply find "(" and ")", instead, I should create a stack if it finds a "(" then add it to the stack. If it finds ")" then pop one "(" out. After the while loop is done, if there is no "(" or ")" left in the stack, then that is a valid html.
+
+![image](https://user-images.githubusercontent.com/59184714/171759767-10c0235b-cd93-4790-8de2-b97bf7559e3c.png)
+
